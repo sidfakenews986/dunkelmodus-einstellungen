@@ -1,7 +1,7 @@
 const darkModeEnabled = false;
 
 function toggleDarkMode() {
-  darkModeEnabled = !darkModeEnabled;
+  darkModeEnabled = !darkModeEnabled; // This line causes an error
   const body = document.body;
   body.classList.toggle('dark-mode', darkModeEnabled);
 }
