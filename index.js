@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 app.post('/toggle-dark-mode', (req, res) => {
   const isEnabled = req.body.enabled;
   // Logic to enable/disable dark mode here
-  res.json({ message: `Dark mode ${isEnabled ? 'enabled' : 'disabled'}` });
+  res.json({ message: `Dark mode has been ${isEnabled ? 'enabled' : 'disabled'}` });
 });
 
 app.listen(port, () => {
