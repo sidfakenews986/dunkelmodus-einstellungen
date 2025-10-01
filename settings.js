@@ -1,4 +1,4 @@
-let darkModeEnabled = false;
+const darkModeEnabled = false;
 
 function toggleDarkMode() {
   darkModeEnabled = !darkModeEnabled;
