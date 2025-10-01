@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zu Dunkelmodus-Einstellungen!');
+  res.send('Willkommen zu den Dunkelmodus-Einstellungen!');
 });
 
 // Endpoint zum Aktivieren des Dunkelmodus
