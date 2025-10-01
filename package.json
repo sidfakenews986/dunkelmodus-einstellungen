@@ -1,7 +1,7 @@
 {
   "name": "dunkelmodus-einstellungen",
   "version": "1.0.0",
-  "description": "Eine Anwendung zur Verwaltung des Dunkelmodus.",
+  "description": "Eine Anwendung zur Verwaltung von Dunkelmodus-Einstellungen.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
