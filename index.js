@@ -5,16 +5,16 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zu den Dunkelmodus-Einstellungen!');
+  res.send('Welcome to the Dark Mode Settings!');
 });
 
-// Endpoint zum Aktivieren des Dunkelmodus
+// Endpoint to toggle dark mode
 app.post('/toggle-dark-mode', (req, res) => {
   const isEnabled = req.body.enabled;
-  // Logik zum Aktivieren/Deaktivieren des Dunkelmodus hier
-  res.json({ message: `Dunkelmodus ${isEnabled ? 'aktiviert' : 'deaktiviert'}` });
+  // Logic to enable/disable dark mode here
+  res.json({ message: `Dark mode ${isEnabled ? 'enabled' : 'disabled'}` });
 });
 
 app.listen(port, () => {
-  console.log(`Server läuft auf http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
