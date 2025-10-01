@@ -5,7 +5,7 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Dark Mode Settings!');
+  res.send('Welcome to the Dark Mode Settings Page!');
 });
 
 // Endpoint to toggle dark mode
